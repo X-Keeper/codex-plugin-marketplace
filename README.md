@@ -8,7 +8,7 @@
 
 1. Открыть каталог плагинов в Codex.
 2. Выбрать добавление marketplace.
-3. В поле источника указать `X-Keeper/xk-codex-markeplace` или `https://github.com/X-Keeper/xk-codex-markeplace.git`.
+3. В поле источника указать `X-Keeper/codex-plugin-marketplace` или `https://github.com/X-Keeper/codex-plugin-marketplace.git`.
 4. Открыть источник `X-Keeper`.
 5. Установить плагин «Устройства X-Keeper».
 6. Если источник не появился сразу, перезапустить приложение.
@@ -32,7 +32,7 @@
 ## Состав
 
 ```text
-xk-codex-markeplace/
+codex-plugin-marketplace/
 ├── .agents/plugins/marketplace.json
 ├── plugins/xkeeper-devices/
 │   ├── .codex-plugin/plugin.json
