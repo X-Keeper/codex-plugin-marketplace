@@ -1,0 +1,13 @@
+interface:
+  display_name: "Чтение устройств X-Keeper"
+  short_description: "Безопасное чтение данных устройств X-Keeper"
+  default_prompt: "Используй $xkeeper-read-devices, чтобы получить статус устройства X-Keeper по SIM."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "xkeeper-devices"
+      description: "MCP-сервер чтения данных устройств X-Keeper"
+      transport: "streamable_http"
+      url: "https://mcp.rnd.x-keeper.net/mcp"
+policy:
+  allow_implicit_invocation: true

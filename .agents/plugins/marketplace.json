@@ -1,0 +1,20 @@
+{
+  "name": "xkeeper",
+  "interface": {
+    "displayName": "X-Keeper"
+  },
+  "plugins": [
+    {
+      "name": "xkeeper-devices",
+      "source": {
+        "source": "local",
+        "path": "./plugins/xkeeper-devices"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xkeeper-devices": {
+      "type": "http",
+      "url": "https://mcp.rnd.x-keeper.net/mcp"
+    }
+  }
+}
